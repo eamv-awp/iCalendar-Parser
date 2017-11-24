@@ -1,0 +1,33 @@
+Tests
+
+Initialiser nyt Event med 
+(Hint: VEvent)
+starttidspunkt = 12. december 2012 kl. 12:12:12 og 
+(Hint: DTStart)
+sluttidspunkt = 12. december 2012 kl. 13:13:13.
+(Hint: DTEnd)
+
+Initialiser nyt Event med 
+starttidspunkt = 12. december 2012 kl. 12:12:12 og
+varighed = 1 time, 1 minut og 1 sekund.
+(Hint: Duration)
+
+Tilføj emne til et Event.
+(Hint: Summary)
+
+Tilføj beskrivelse til et Event.
+(Hint: Description)
+
+Tilføj unikt id til et Event.
+(Hint: UID)
+
+Opdater Event.
+
+Initialiser ny Calendar med 
+(Hint: VCalendar)
+version = 2.0 og 
+(Hint: Version)
+produkt-id: -//AWRP International//iCalendar Parser 1.0//EN
+(Hint: ProdID)
+
+Tilføj Event til Calendar
