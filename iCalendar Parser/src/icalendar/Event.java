@@ -26,7 +26,7 @@ public class Event {
 	}
 
 	public Duration getDuration() {
-		return Duration.from(Duration.between(start, end));
+		return Duration.between(start, end);
 	}
 
 }
