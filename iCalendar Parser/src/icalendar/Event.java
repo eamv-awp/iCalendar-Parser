@@ -7,7 +7,6 @@ public class Event {
 
 	private LocalDateTime start;
 	private LocalDateTime end;
-	private Duration duration;
 
 	public Event(LocalDateTime start, LocalDateTime end) {
 		this.start = start;
@@ -15,9 +14,7 @@ public class Event {
 	}
 
 	public Event(LocalDateTime start, Duration duration) {
-		this.start = start;
-		this.duration = duration;
-		this.end = start.plus(duration);
+		this(start, start.plus(duration));
 	}
 
 	public LocalDateTime getStart() {
@@ -29,7 +26,7 @@ public class Event {
 	}
 
 	public Duration getDuration() {
-		return duration;
+		return Duration.from(Duration.between(start, end));
 	}
 
 }
