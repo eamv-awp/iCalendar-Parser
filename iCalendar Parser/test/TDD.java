@@ -78,5 +78,31 @@ public class TDD {
 		// 1. Assert
 		assertEquals(summary, event.getSummary());
 	}
-
+	
+	@Test
+	public void testTilfoejBeskrivelseTilEvent() {
+		// 3. Set-up
+		Event event = new Event(LocalDateTime.of(2017,12,19,18,0,0), Duration.ofHours(6));
+		String description = "Festen starter med snaps";
+		
+		// 2. Execute
+		event.setDescription(description);
+		
+		// 1. Assert
+		assertEquals(description, event.getDescription());
+	}
+	
+	@Test
+	public void testTilfoejBeskrivelseMedDanskeTegnOgLinjeskiftTilEvent() {
+		// 3. Set-up
+		Event event = new Event(LocalDateTime.of(2017,12,19,18,0,0), Duration.ofHours(6));
+		String description = "Mormors 85-års dag"+System.lineSeparator()+"Vi bliver 50 mennesker.";
+		
+		// 2. Execute
+		event.setDescription(description);
+		
+		// 1. Assert
+		assertEquals(description, event.getDescription());
+	}
+	
 }
