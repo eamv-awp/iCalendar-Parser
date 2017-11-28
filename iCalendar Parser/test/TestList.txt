@@ -21,6 +21,15 @@ varighed = 1 time, 1 minut og 1 sekund.
 
 Tilføj emne til et Event.
 (Hint: Summary)
+Start-tilstand: Et Event-objekt event uden emne
+Input: Angivet emne = "Julefrokost"
+Transition: Sæt emne på event
+            Læs emne fra event
+Slut-tilstand: event.emne = "Julefrokost"
+(forventet output)
+
+Tilføj emne til et Event.
+emne = "Fødselsdag"
 
 Tilføj beskrivelse til et Event.
 (Hint: Description)
@@ -38,3 +47,9 @@ produkt-id: -//AWRP International//iCalendar Parser 1.0//EN
 (Hint: ProdID)
 
 Tilføj Event til Calendar
+
+
+
+
+
+

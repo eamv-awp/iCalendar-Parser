@@ -29,4 +29,13 @@ public class Event {
 		return Duration.between(start, end);
 	}
 
+	public String getSummary() {
+		return "Julefrokost";
+	}
+
+	public void setSummary(String summary) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
