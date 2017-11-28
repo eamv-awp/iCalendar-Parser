@@ -105,4 +105,16 @@ public class TDD {
 		assertEquals(description, event.getDescription());
 	}
 	
+	@Test
+	public void testInitialiseringAfCalendar() {
+		/*
+		// 1. Assert
+		assertEquals("2.0", calendar.getVersion());
+		assertEquals("-//AWRP International//iCalendar Parser 1.0//EN", calendar.getProductID());
+		assertEquals("AWRP International", calendar.getProductCompany());
+		assertEquals("iCalendar Parser 1.0", calendar.getProductName());
+		assertEquals("EN", calendar.getProductIDSuffix());
+		*/
+	}
+	
 }

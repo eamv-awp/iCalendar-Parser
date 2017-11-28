@@ -39,17 +39,19 @@ Tilføj beskrivelse til et Event.
 (Hint: Description)
 beskrivelse = "Mormors 85-års dag"+<linjeskift>+"Vi bliver 50 mennesker."
 
-Tilføj unikt id til et Event.
-(Hint: UID)
-
-Opdater Event.
-
 Initialiser ny Calendar med 
 (Hint: VCalendar)
 version = 2.0 og 
 (Hint: Version)
 produkt-id: -//AWRP International//iCalendar Parser 1.0//EN
 (Hint: ProdID)
+
+- - - - -
+
+Tilføj unikt id til et Event.
+(Hint: UID)
+
+Opdater Event.
 
 Tilføj Event til Calendar
 
